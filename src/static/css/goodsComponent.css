@@ -1,0 +1,37 @@
+.goods-item{
+    float: left;
+    width: 50%;
+    line-height: .8rem;
+    border-bottom: 2px solid #eee;
+    box-sizing: border-box;
+}
+.goods-item dt{
+    height: 3.2rem;
+    overflow: hidden;
+}
+.goods-item img{
+    width: 100%;
+}
+.goods-item:nth-of-type(2n+1){
+    border-right: 2px solid #eee;
+}
+.goods-item p{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.goods-item dd span{
+    display: inline-block;
+}
+.goods-item .goods-detail{
+    font-size: .25rem;
+}
+.goods-item .goods-nums{
+    display: flex;
+    justify-content: space-between;
+}
+.goods-item .iconfont{
+    color: red;
+    margin-right: .2rem;
+    font-size: .3rem;
+}

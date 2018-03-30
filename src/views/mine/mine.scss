@@ -1,0 +1,49 @@
+#mine{
+    header p{
+        background: #f4f4f4;
+        position: relative;
+        .iconfont{
+            position: absolute;
+            left: .2rem;
+            top: 0;
+        }
+        span{
+            display: inline-block;
+        }
+    }
+}
+.mineBox li:nth-child(1){
+    width: 100%;
+    height: 1.32rem;
+    color: #fc4141;
+    position: relative;
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .3rem;
+    font-size: .3rem;
+}
+.mineBox li span i{
+    font-size: .36rem;
+    margin-right: .2rem;
+}
+.mineBox li:nth-child(1) span i{
+    font-size: .56rem;
+    margin-right: .2rem;
+}
+.mineBox li{
+    width: 100%;
+    height: 1.03rem;
+    position: relative;
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .3rem;
+    font-size: .3rem;
+    background: #fff;
+}
+.mineBox li:nth-child(2){
+    margin-top: .2rem;
+}

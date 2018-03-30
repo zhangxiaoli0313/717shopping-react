@@ -1,0 +1,36 @@
+#setting{
+    header{
+        font-size: .3rem;
+        font-weight: bold;
+        background: #f4f4f4;
+        border-bottom: 2px solid #ccc;
+        position: relative;
+        span{
+            position: absolute;
+            left: .2rem;
+            top: 0;
+        }
+    }
+    p{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+        span:nth-child(1){
+            padding-left: .2rem;
+        }
+        span:nth-child(2){
+            padding-right: .2rem;
+        }
+    }
+    button{
+        width: 70%;
+        margin-left: 15%;
+        border-radius: .3rem;
+        background: red;
+        color: #fff;
+        border: 1px solid red;
+        height: .8rem;
+        margin-top: .4rem;
+        font-size: .3rem;
+    }
+}
